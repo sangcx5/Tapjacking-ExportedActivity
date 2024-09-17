@@ -38,3 +38,6 @@ android:layout_width="wrap_content"
 android:layout_height="wrap_content" 
 android:filterTouchesWhenObscured="true">
 </Button>
+
+New UI
+![image](https://github.com/user-attachments/assets/b3c33893-5617-49e3-a948-e98d1c5b95f1)
