@@ -2,14 +2,40 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:padding="10dp"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tapjacking Demo"
+        android:layout_marginBottom="20dp"
         android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/package_name"
+        android:hint="com.example.victim"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/exported_activity"
+        android:hint="com.example.victim.MainActivity"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Start"
+        android:id="@+id/btn"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stop"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
